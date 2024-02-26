@@ -8,7 +8,7 @@ for word in words:
     elif word.endswith('.'):
         word = word[:-1] + 'ing.'
     else:
-        word = word + "ing"
+        word = word + 'ing'
     texting.append(word)
 
 print(' '.join(texting))
