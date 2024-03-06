@@ -8,8 +8,10 @@ r22 = int(r2[r2.index(':') + 2:])
 r33 = int(r3[r3.index(':') + 2:])
 r44 = int(r4[r4.index(':') + 2:])
 
+
 def summ(numb):
     print(numb + 10)
+
 
 summ(r11)
 summ(r22)
