@@ -4,7 +4,7 @@ def fibonacci_generator():
         yield a
         a, b = b, a + b
 
-        
+
 count = 0
 
 
