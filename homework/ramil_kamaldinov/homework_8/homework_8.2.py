@@ -5,6 +5,7 @@ def fibonacci_generator():
         a, b = b, a + b
 count = 0
 
+
 for x in fibonacci_generator():
     count += 1
     if count == 5:
