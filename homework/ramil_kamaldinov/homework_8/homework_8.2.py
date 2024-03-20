@@ -3,6 +3,8 @@ def fibonacci_generator():
     while True:
         yield a
         a, b = b, a + b
+
+        
 count = 0
 
 
